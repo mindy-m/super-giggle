@@ -1,0 +1,6 @@
+This is a simple turn-based RPG-style combat. You start with 50 hitpoints and 3 potions, and your opponent starts with 100 hitpoints.
+
+- Every turn, the player goes first, and then the opponent makes their move.
+- Player can either "attack" (dealing 10 damage) or "potion" (healing 30 hitpoints, but not exceeding the maximum of 50).
+- Opponent always attacks, dealing 10 damage. (They even attack one last time if the player reduces their hitpoints to 0.)
+- Play ends when either participant has 0 hitpoints left. If (and only if) the player has positive hitpoints, they win.
